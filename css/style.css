@@ -1,0 +1,24 @@
+/*----- CSS for website common partial -----*/
+/*------------- COMMONS -------------*/
+img.main-logo {
+    width: 64px;
+    border-radius: 100%;
+    transition: ease-in 1s;
+}
+img.main-logo:hover {
+    transform: rotate(360deg);
+}
+
+/*------------- HEADER -------------*/
+input.search-bar {
+    height: 37px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding-left: 10px;
+}
+
+/*------------- NAVIGATION -------------*/
+
+/*------------- CONTENTS -------------*/
+
+/*------------- FOOTER -------------*/
