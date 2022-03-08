@@ -1,0 +1,48 @@
+/*----- CSS for website common partial -----*/
+/*------------- COMMONS -------------*/
+img.main-logo {
+    width: 64px;
+    border-radius: 100%;
+    transition: ease-in 1s;
+}
+
+img.main-logo:hover {
+    transform: rotate(360deg);
+}
+
+/*------------- HEADER -------------*/
+input.search-bar {
+    height: 37px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding-left: 10px;
+}
+
+/*------------- NAVIGATION -------------*/
+
+/*------------- CONTENTS -------------*/
+
+
+
+/*----------Register and  Login ----------*/
+.Login-form {
+    border-radius: 10px;
+    color: black;
+    background-color: #5270ff;
+    width: 1000px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.Register {
+    border-left: 1px solid white;
+    padding-left: 2rem;
+
+}
+
+
+/*------------- FOOTER -------------*/
