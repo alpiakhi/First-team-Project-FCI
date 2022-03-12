@@ -1,4 +1,5 @@
 /*----- CSS for website common partial -----*/
+
 /*------------- COMMONS -------------*/
 img.main-logo {
     width: 64px;
@@ -10,15 +11,238 @@ img.main-logo:hover {
     transform: rotate(360deg);
 }
 
+img.Circle-logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 20px;
+    transition: ease-in 1s;
+}
+
+img.Circle-logo:hover{
+    transform: rotate(360deg);
+}
+
 /*------------- HEADER -------------*/
 input.search-bar {
-    height: 37px;
+    height: 36px;
     border-radius: 5px;
     border: 1px solid lightgray;
     padding-left: 10px;
 }
 
-/*------------- NAVIGATION -------------*/
+/*------------- NAVIGATION ---------------------*/
+
+
+
+/*------------- Home area Work -------------------*/
+
+/*----------------Image_Slider----------------*/
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.15rem;
+    padding-bottom: 1.00rem;
+    color:#ffffff;
+    text-align:center;
+    text-shadow: 5px 5px 10px rgba(99, 93, 93, 0.678);
+	margin-bottom:20px;
+}
+
+.carousel-caption1 {
+    color:white;
+    position: absolute;
+    top:10%;
+    right:10%;
+    width: 100%;
+    font-size: 16px;
+    margin-top:10px;
+    text-align:end;
+    text-shadow: 5px 5px 10px rgba(99, 93, 93, 0.678);
+}
+
+.carousel-caption2 {
+    color:white;
+    position: absolute;
+    top:10%;
+    left:5%;
+    width: 100%;
+    font-size: 16px;
+    margin-top:25px;
+    text-align: left;
+    text-shadow: 5px 5px 10px rgba(99, 93, 93, 0.678);
+}
+.carousel-caption h2{color:rgba(248, 233, 21, 0.904);}
+.carousel-caption1 h2 {color: rgba(248, 233, 21, 0.904);}
+.carousel-caption2 h2{color: rgba(248, 233, 21, 0.904);}
+
+/*--------------------Service--------------------*/
+
+.Circle{
+    width: 90px;
+    height: 90px;
+    background-color:rgb(204, 193, 95);
+    border-radius: 100%;
+    margin-top: 50px;}
+
+.service-h22{
+    font-size: 18px;
+    color:#1b1919de;
+    padding-top:8px;
+}
+
+.service-p11{
+    font-size: 14px;
+    color:#1b1919de;
+    ;
+}
+
+/*-------------------------Banner----------------*/
+
+.Banner{
+    position:relative;
+    width: 100%;
+    margin-top: 15px;
+}
+.Banner img{
+    width: 100%;
+}
+.Banner-text{
+    color:black;
+    position: absolute;
+    top:10%;
+    left:5%;
+    width: 100%;
+    font-size: 20px;
+    margin-top:25px;
+    text-align: left;
+    text-shadow: 5px 5px 10px rgba(99, 93, 93, 0.678);
+}
+.Banner-text2{
+    color:black;
+    position: absolute;
+    top:10%;
+    right:5%;
+    width: 100%;
+    font-size: 20px;
+    margin-top:25px;
+    text-align:end;
+    text-shadow: 5px 5px 10px rgba(99, 93, 93, 0.678);
+}
+
+/*---------------Product Customize---------------*/
+
+.Product-text{
+    width:60px;
+    height:50px;
+    border-radius:100%;
+    background-color: #beae19;
+    color:white;
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    top:60%;
+    left:70%;
+}
+
+.Product-text2{
+    width:60px;
+    height:50px;
+    border-radius:100%;
+    background-color:red;
+    color:white;
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    top:60%;
+    left:70%;
+}
+
+
+/*---------------Fileting featured Product-------------*/
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 10px -5px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+  /* Content */
+  .content {
+    position:relative;
+    background-color:white;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .content img{
+      width: 100%;
+  }
+  
+
+
+
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+
+  /* Style the buttons */
+
+  .button-Group {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 7px 8px;
+    background-color: #beae19;
+    cursor: pointer;
+  }
+
+  .button-Group:hover{
+    background-color:rgb(70, 161, 17);
+  }
+
+  .button-Group.active{
+    background-color: red;
+    color: white;
+  }
+
+  .btn:hover {
+    background-color:rgb(70, 161, 17);
+  }
 
 /*------------- CONTENTS -------------*/
 
