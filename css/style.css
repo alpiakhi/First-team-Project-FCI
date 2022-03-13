@@ -32,7 +32,9 @@ input.search-bar {
 }
 
 /*------------- NAVIGATION ---------------------*/
-
+.navbar{
+  background: #5170fe !important;
+}
 
 
 /*------------- Home area Work -------------------*/
@@ -270,3 +272,6 @@ input.search-bar {
 
 
 /*------------- FOOTER -------------*/
+.footer{
+  background: #5170fc !important;
+}
