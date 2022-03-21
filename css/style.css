@@ -41,6 +41,12 @@ input.search-bar {
   color: black !important;
   font-weight: bold;
 }
+.nav-margin-minus{
+  margin-left: -3rem;
+}
+.form-custom{
+  margin-left: 8rem;
+}
 
 /*------------- Home area Work -------------------*/
 
