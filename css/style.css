@@ -33,9 +33,20 @@ input.search-bar {
 
 /*------------- NAVIGATION ---------------------*/
 .navbar{
-  background: #5170fe !important;
+  background: #030d3ac9 !important;
+  padding: 0 !important;
 }
-
+.nav-link:hover{
+  background-color: white;
+  color: black !important;
+  font-weight: bold;
+}
+.nav-margin-minus{
+  margin-left: -3rem;
+}
+.form-custom{
+  margin-left: 8rem;
+}
 
 /*------------- Home area Work -------------------*/
 
@@ -247,7 +258,15 @@ input.search-bar {
   }
 
 /*------------- CONTENTS -------------*/
-
+/* Hover on items into home page products */
+.item-shadow-hover{
+  padding-bottom: 1rem;
+  /* border: 1px solid lightgray; */
+}
+.item-shadow-hover:hover{
+  border: 1px solid lightgray;
+  box-shadow: 5px 5px 12px;
+}
 
 
 /*----------Register and  Login ----------*/
